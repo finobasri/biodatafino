@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+ }
+ 
+ header{
+     background-color: #0a1775;
+     padding: 10px;
+     text-align: center;
+     font-size: 30px;
+     color: white;
+ }
+ 
+ nav {
+     float: left;
+     width: 200px;
+     height: 380px;
+     background-color: #ccccff;
+     padding: 60px;
+ }      
+ 
+ nav > ul {
+     list-style-type: none;
+     padding: 0;
+     color:black);
+     text-decoration:underline ;
+ }
+ article {
+     float: left;
+     padding: 30px;
+     width: 70%;
+     background-color: white;
+     height: 300px;
+     font-style: inherit    ;
+ }
+
+ .center {
+    float: right;
+    width: 150px;
+    border: 3px solid black;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+.motoran {
+    float: left;
+    height: 250px;
+    width: 400px;
+}
+
+.futsal {
+    float: right;
+    height:250px;
+    width: 400px;
+}
+
+.club {
+    float: center;
+    height: 280px;
+    width: 280px;
+}
+ 
+     *{
+         box-sizing: border-box;
+     }
+ 
+ section::after  {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ footer {
+     background-color:#004d80;
+     padding: 20px;
+     width: 100%;
+     text-align:center;
+     color:black;
+     position: absolute;
+     bottom:0;
+ 
+ }
